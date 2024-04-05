@@ -1,4 +1,4 @@
-const arrayN = ["pippo", "pulto" , "paperino", "osvaldo"];
+const arrayN = ["pippo franco", "pulto" , "paperino", "osvaldo", "orietta berti"];
 
 let numElem = 0;
 
