@@ -8,7 +8,11 @@ let word1 = prompt("stampa prima parola");
 
 let word2 = prompt("stampa seconda parola");
 
+const paroleStamapate = stringaLength(word1,word2);
 
+const paroleUguali = sameLength(word1,word2);
+
+console.log(paroleStamapate);
 
 // verificare lunghezza parole
 
