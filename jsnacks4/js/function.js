@@ -7,16 +7,23 @@
  * @returns {number} number
  */
 function trovaIndice(array, elemArray, indexElem) {
-    // Utilizza un ciclo for per iterare attraverso l'array
-    for (let i = 0; i < array.length; i++) {
-        // Confronta l'elemento corrente con l'elemento da trovare
-        if (array[i] === elemArray) {
-            // Se l'elemento è trovato, salva l'indice corrente e interrompi il ciclo
-            indexElem = i;
-            break;
-        }
+    
+    for(let i = 0; i < array.length; i++) {
+        indexElem = -1;
+        if(elemArray === array[i]){
+            return i;
+        } 
+        
     }
+    
+    if(indexElem !== -1) {
+        return indexElem;
+    } else {
+      return indexElem;  
+    }
+    
 }
+
 
 
 

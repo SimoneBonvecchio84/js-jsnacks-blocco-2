@@ -1,16 +1,23 @@
-const array = ["pippo", "pluto", "paperino"];
-const elementoDaTrovare = prompt("inserisci elemento") ;
-let indice = -1; // Inizializza l'indice a -1 per indicare che l'elemento non è stato trovato
+const array = ["pippo", "franco", "ciccio", "ada"];
 
-let risultato = trovaIndice(array, elementoDaTrovare, indice);
+let elemToCheck = prompt("inserisci un nome")
 
-// Stampa l'indice dell'elemento trovato, o un messaggio se l'elemento non è stato trovato
-if (indice !== -1) {
-    console.log("L'elemento è stato trovato all'indice:", indice);
-} else {
-    console.log("L'elemento non è stato trovato nell'array.");
-}
+let indexElem = -1;
 
 
-// let result = trovaIndice(myArray, elemArray, indice);
+// for (let i = 0; i < array.length; i++){
+//     if(elemToCheck === array[i]){
+//         indexElem = i;
+//     } 
+// }
+//  if (indexElem !== -1) {
+//     console.log(indexElem)
+//  } else {
+//     console.log(indexElem);
+//  }
+
+let risultato = trovaIndice(array, elemToCheck, indexElem);
+
+console.log(risultato);
+
 
